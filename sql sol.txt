@@ -1,0 +1,64 @@
+1 :  a,d
+2 : b,c
+3 : b
+4 : b
+5 : a
+6 : c
+7 : b
+8 : b
+9 : b
+10 : c
+
+
+11:
+A Data Warehouse is process for collecting and managing data from varied sources to provide meaningful business insights. A Data warehouse is typically used to connect and analyze business data from heterogeneous sources. The data warehouse is the core of the BI system which is built for data analysis and reporting.It is cobination and can say the entrerprise a large bucked of large data
+
+
+12:
+
+Online Analytical Processing (OLAP) is a category of software tools that analyze data stored in a database whereas Online transaction processing (OLTP) supports transaction-oriented applications in a 3-tier architecture.
+
+OLAP creates a single platform for all type of business analysis needs which includes planning, budgeting, forecasting, and analysis while OLTP is useful to administer day to day transactions of an organization.
+
+OLAP is characterized by a large volume of data while OLTP is characterized by large numbers of short online transactions.
+
+In OLAP, data warehouse is created uniquely so that it can integrate different data sources for building a consolidated database whereas OLTP uses traditional DBMS.
+
+
+
+13:
+
+Subject-oriented –
+
+A data warehouse is always a subject oriented as it delivers information about a theme instead of organization’s current operations. It can be achieved on specific theme. That means the data warehousing process is proposed to handle with a specific theme which is more defined. These themes can be sales, distributions, marketing etc.
+
+Integrated –
+
+It is somewhere same as subject orientation which is made in a reliable format. Integration means founding a shared entity to scale the all similar data from the different databases. The data also required to be resided into various data warehouse in shared and generally granted manner.
+
+
+Time-Variant –
+
+In this data is maintained via different intervals of time such as weekly, monthly, or annually etc. It founds various time limit which are structured between the large datasets and are held in online transaction process (OLTP). It comprises elements of time explicitly or implicitly. 
+
+
+
+Non-Volatile –
+
+As the name defines the data resided in data warehouse is permanent. It also means that data is not erased or deleted when new data is inserted. It includes the mammoth quantity of data that is inserted into modification between the selected quantity on logical business. It evaluates the analysis within the technologies of warehouse.
+
+
+
+
+
+14:
+
+This schema is widely used to develop or build a data warehouse and dimensional data marts. It includes one or more fact tables indexing any number of dimensional tables
+It is said to be star as its physical model resembles to the star shape having a fact table at its center and the dimension tables at its peripheral representing the star’s points. 
+
+
+
+
+15:
+
+SETL is a very-high level language with dynamic typing and dynamic data structures, based on the mathematical notion of set.SETL programs are much more declarative than procedural.The primitive datatypes of SETL include integer, floating-point, Boolean, atom, and string.Both sets and ordered sets (called tuples) are heterogeneous in SETL: values of all sorts can be members of the same structure, including other sets and tuples

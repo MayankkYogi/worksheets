@@ -1,0 +1,35 @@
+1 b
+2 c
+3 a
+4 a
+5 c
+6 c
+7 a
+8 b
+9 a,b,d
+10 a,c,d
+
+11 : 
+
+List = List is a data type in python and and it is mutable, means we can reassign the values of list , and in list we can also assign different data type or variable at same time by comma separated,also list is ordered and duplicate members are allowed the syntax is : list = [1,'a',1.5]
+
+Tuple = Tuple is also a data type in python, it is immortal means we can not reassign the value in tuple, also tuple is homogenous in nature means we can assign different value in tuple, all value inside tuple should be of same type, but duplicate members are allowed
+eg : tuple = (1,2)
+
+Set = it is collection of unordered and unindexed,as it is unorder so we can not sure that in which order the item should appear,also the set are mortal, means we can change the value eg : thisset = {"apple", "banana", "cherry"}
+
+Dictionary = dictionary are key value pairs, and in this if we know the key of the specifiv value then we can access the value faster then other collections, and in this we can use list, set and dictionary inside dictionary.it is unordered, changeable and indexed
+eg : dict  = {1:'mayank'}
+
+
+
+12:
+String are mutable in python means we can reassign the value of variable, and can used it . Please find code in jupyter notebook
+
+
+13 : 
+The ord() function returns the number representing the unicode code of a specified character.Please find code in jupyter notebook
+
+
+
+14,15:Please find code in jupyter notebook
