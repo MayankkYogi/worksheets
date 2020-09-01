@@ -1,0 +1,89 @@
+1 d
+2 b
+3 c
+4 a
+5 a
+6 c
+7 b
+8 a
+9 a,b,d
+10 b,d
+
+
+11 : 
+
+Deep Learning is based on biological brain function and the unit is mainly used called as neuron. DL is used when there is very large and complex data set as comapred to ML the time of training in DL is high but testing time is very low, DL is also learn by itself by extracting the useful ingormation from the data set, When the dataset is small and less comolex then the ML works efficient but when the data set is large and became complex the DL is used.
+
+Type of DL:
+ANN (Artificial NN)
+CNN (Convolution NN)
+RNN (Recurrent NN)
+
+In DL there are inputs which are send to some activation function along with some weight which lies between(0 to 1) and then after activatio function got applied then the output get generated and the error rate is also get generated, we have to minimize the error value by doing back propagation and change the value of weights and reach to global minimum loss.
+There are also hidden layers where we can assign multiple neurons which are responsible for learn from the data, multiple hidden layers can lead to extract more information but also leads to overfitting so for that we can use optimizers and minimize the overfitting.
+in any model if there are more number of layers there underfitting problem never occurs.
+So DL can be used in various platforms like Image recognization, Fraud Detection,also in chatbots.
+
+
+12:
+
+Reinforcement learning is an area of Machine Learning. It is about taking suitable action to maximize reward in a particular situation. It is employed by various software and machines to find the best possible behavior or path it should take in a specific situation. Reinforcement learning differs from the supervised learning in a way that in supervised learning the training data has the answer key with it so the model is trained with the correct answer itself whereas in reinforcement learning, there is no answer but the reinforcement agent decides what to do to perform the given task. In the absence of a training dataset, it is bound to learn from its experience.
+
+Input: The input should be an initial state from which the model will start
+Output: There are many possible output as there are variety of solution to a particular problem
+Training: The training is based upon the input, The model will return a state and the user will decide to reward or punish the model based on its output.
+The model keeps continues to learn.
+The best solution is decided based on the maximum reward.
+
+
+
+13:
+
+Machine Learning : 
+- It is generally used when we have label data means we have to provide the dataset or we ccan say the information to the model so that the model can extract the onfo from that dataset.
+- ML is best for when we have less dataset and the data is not much complex
+- ML takes very less time for traing the data but for testing it takes more time
+- ML is of multiple types : 
+	- Supervised
+	- Unsupervised
+	- Reinforcement
+	- PCA
+
+Deep Learning : 
+- It is basically depend on bioligical function of neuron which is imp part of human brain
+- It is best for large dataset and complex dataset
+- It generally extract other info from the data set  and model can learn the vast amount of info from data set
+- DL is of 3 Types :
+	- ANN
+	- CNN
+	- RNN
+
+
+14:
+
+A neural network is an interconnected system of perceptrons, so it is safe to say perceptrons are the foundation of any neural network. Perceptrons can be viewed as building blocks in a single layer in a neural network, made up of four different parts:
+
+Input Values or One Input Layer
+Weights and Bias
+Net sum
+Activation function
+
+A neural network, which is made up of perceptrons, can be perceived as a complex logical statement (neural network) made up of very simple logical statements (perceptrons); of “AND” and “OR” statements. A statement can only be true or false, but never both at the same time. The goal of a perceptron is to determine from the input whether the feature it is recognizing is true, in other words whether the output is going to be a 0 or 1. A complex statement is still a statement, and its output can only be either a 0 or 1.
+
+
+
+15:
+
+AI is a bigger concept to create intelligent machines that can simulate human thinking capability and behavior, whereas, machine learning is an application or subset of AI that allows machines to learn from data without being programmed explicitly.
+
+Artificial intelligence:
+
+- Artificial intelligence is a field of computer science which makes a computer system that can mimic human intelligence. It is comprised of two words "Artificial" and  "intelligence", which means "a human-made thinking power."
+- The main applications of AI are Siri, customer support using catboats, Expert System, Online game playing, intelligent humanoid robot, etc.
+- Machine learning and deep learning are the two main subsets of AI.
+
+Machine learning:
+
+- Machine learning enables a computer system to make predictions or take some decisions using historical data without being explicitly programmed. Machine learning uses a   massive amount of structured and semi-structured data so that a machine learning model can generate accurate result or give predictions based on that data.
+- The main applications of machine learning are Online recommender system, Google search algorithms, Facebook auto friend tagging suggestions, etc.
+- Deep learning is a main subset of machine learning.
