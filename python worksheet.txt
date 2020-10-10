@@ -1,0 +1,46 @@
+1 a
+2 a
+3 b
+4 c
+5 a
+6 c
+7 c
+8 b
+
+
+
+9 : 
+
+gini  = 1-(4/10)2 - (6/10)2 = 0.48
+
+10 :
+Random forest is an ensemble techniques which uses multipple trees which plkay a role of weak learners and each tree learn some information from the data set and at the end all the information are combines to make one strong learner model and also try to limit the overfitting as comapre to decsion tree.
+
+11:
+
+Scaling is used maily in regression problem like in linear regression because it make all the data set values in standard form , becauce as the data value not in standard form then the outliers impact in increased and also speed up the calculation and make the data ot features normalize.
+2 techniques are : 
+standard scaler
+minmax scaler
+
+
+
+
+12:
+As optimaization play an important role in gradient descent as in the end we have to reach the global minima and it depends on the optimizers whther to reach the global minima early or late.
+ - there are several type og optimization techniques like mini batach, stochastic, full batch
+ - this help to decide to group the data from dataset 
+
+
+13:
+if the data set is imbalance then while prediction or fitting the data to the algorithm because of biasing in the data set the predict tend to more on the lable which is high in number so the accuracy is not a good measure to calculate the efficeny of the model, so we can use f1 score or confusion matrix to find the efficeiny like precion and recall value.
+
+
+14:
+The F1 score is the harmonic mean of the precision and recall.The highest possible value of F1 is 1, indicating perfect precision and recall, and the lowest possible value is 0, if either the precision or the recall is zero.
+
+F1 = tp/tp + 0.5(fp+fn)
+
+
+15:
+The fit() function calculates the values of these parameters. The transform function applies the values of the parameters on the actual data and gives the normalized value. The fit_transform() function performs both in the same step
