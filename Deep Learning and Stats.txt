@@ -1,0 +1,68 @@
+DEEP LEARNING : 
+1 c
+2 c
+3 c
+4 b
+5 c
+6 b
+7 d
+8 a
+9 b,d
+10 c,d
+
+11:
+sigmoid function
+
+12:
+if we use large learning rate then the global minima will never come to end, as learning rate is large then the new weight will come in negative which will never reach to global minima.
+If we use small learning rate then there is very small change in new weight at the time of back propagation and the time to reach global minima will increase.
+
+
+14:
+Vanishing Gradient Problem is a difficulty found in training certain Artificial Neural Networks with gradient based methods (e.g Back Propagation). In particular, this problem makes it really hard to learn and tune the parameters of the earlier layers in the network. This problem becomes worse as the number of layers in the architecture increases.
+
+A Gentle Introduction to Exploding Gradients in Neural Networks
+by Jason Brownlee on December 18, 2017 in Long Short-Term Memory Networks
+Tweet  Share
+Last Updated on August 14, 2019
+
+Exploding gradients are a problem where large error gradients accumulate and result in very large updates to neural network model weights during training.
+
+This has the effect of your model being unstable and unable to learn from your training data.
+
+
+15:
+An epoch is a measure of the number of times all of the training vectors are used once to update the weights. For batch training all of the training samples pass through the learning algorithm simultaneously in one epoch before weights are updated
+The batch size is a hyperparameter that defines the number of samples to work through before updating the internal model parameters.
+An iteration describes the number of times a batch of data passed through the algorithm. In the case of neural networks, that means the forward pass and backward pass. So, every time you pass a batch of data through the NN, you completed an iteration.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stats : 
+
+1 c
+2 c
+3 d
+4 b
+5 b
+6 c
+7 a
+8 b
+9 b
+10 a
+11 c
+12 d
+13 c
+14 a
+15 d
