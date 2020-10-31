@@ -1,0 +1,38 @@
+1 a
+2 a
+3 b
+4 d
+5 c
+6 b
+7 b
+8 a
+9 c
+
+
+10:
+The normal distribution is a probability function that describes how the values of a variable are distributed. It is a symmetric distribution where most of the observations cluster around the central peak and the probabilities for values further away from the mean taper off equally in both directions. Extreme values in both tails of the distribution are similarly unlikely.They also follow the empiracal standard deviation range in which first range cover 68% of total data, second range cover 96% of total data and third range cover 99-7% of total data, if data is normally distributed then it become more efficient for linear regression to compute the result.
+
+
+11:
+There are multiple ways to handle the missing value for both numeric and categorcal data.
+For numeric data we if there are large dataset and we have less number of null values then we can simply drop that rows but if the dataset is small and we doest not want to do data loss then we can replace the missing values with the most frequent value same for categorical data.
+Also there are other ways, we can use imputation i.e. simple imputer that are KNN imputer, Decision tree imputer and can predict the missing values.
+
+
+
+12:
+An A/B test is a randomized experiment, in which the "A" and "B" refer to 2 variants, undertaken in order to determine which variant is the more "effective." A popular tool in web analytics, A/B testing is not well understood by everyone, including those who utilize it regularly
+
+
+13:
+Yes , if in the dataset there are less number of missing values we can impute the missing values woth the mean value, but if there are more number of missing values and then we replace with the mean then this will make the dataset more bias.
+
+14:
+Linear regression as the term say, it is linearly defined model where the best fit line is linear and can work for numeric and continous data, there is best fit line if the best fit line cover most of the data points then we can say that the model predict the good amount of result. There are also assumption for linear regression is that the data should be normally distributed and in continous in nature.s
+
+
+15:
+There are 2 main branch is statistics that are descriptive and other is infertial.
+in descriptive we describe the model and analize and calculate the insight of the data nad cone to particular result that is mean , max and minimume, for eg, if the statement is find height of student then we can finf the min , max and average.
+
+Inferential statistics, as the name suggests, involves drawing the right conclusions from the statistical analysis that has been performed using descriptive statistics. In the end, it is the inferences that make studies important and this aspect is dealt with in inferential statistics.
