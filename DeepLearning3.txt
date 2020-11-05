@@ -1,0 +1,46 @@
+1 b
+2 c
+3 a
+4 d
+5 c
+6 b
+7 b
+8 a
+9 a,c
+10 b
+
+11:
+Activation functions are really important for a Artificial Neural Network to learn and make sense of something really complicated and Non-linear complex functional mappings between the inputs and response variable.They introduce non-linear properties. Their main purpose is to convert a input signal of a node in a A-NN to an output signal.
+
+If we do not apply a Activation function then the output signal would simply be a simple linear function.A linear function is just a polynomial of one degree. a linear equation is easy to solve but they are limited in their complexity and have less power to learn complex functional mappings from data. A Neural Network without Activation function would simply be a Linear regression Model, which has limited power and does not perform good most of the times.
+
+
+
+12:
+Forward propagation is where you would give a certain input to your neural network, say an image or text. The network will calculate the output by propagating the input signal through its layers. In other words, the output form one layer becomes the input to the next one, where the output from the last one is the “answer”.
+
+In order to do that accurately, the network needs to be trained. This is done through backpropagation. Basically, during training all the parameters of the network’s layers need to be updated (“optimized”). For this reason, the network needs to know in what “direction” the update should go thus it needs to calculate the so-called gradient with respect to a function known as the loss function, which is a way of saying how “wrong” or “incorrect” the network still is, so hopefully it becomes better next time
+
+
+13:
+Gradient descent is a first-order iterative optimization algorithm for finding the minimum of a function
+
+In Batch Gradient Descent, all the training data is taken into consideration to take a single step. We take the average of the gradients of all the training examples and then use that mean gradient to update our parameters. So that’s just one step of gradient descent in one epoch.
+
+In Batch Gradient Descent we were considering all the examples for every step of Gradient Descent. But what if our dataset is very huge. Deep learning models crave for data. The more the data the more chances of a model to be good. Suppose our dataset has 5 million examples, then just to take one step the model will have to calculate the gradients of all the 5 million examples. This does not seem an efficient way. To tackle this problem we have Stochastic Gradient Descent
+
+MGD is a variation of the gradient descent algorithm that splits the training datasets into small batches that are used to calculate model error and update model coefficients.
+
+14:
+This ensures the following advantages of both stochastic and batch gradient descent are used due to which Mini Batch Gradient Descent is most commonly used in practice.
+- Easily fits in the memory
+- It is computationally efficient
+- Benefit from vectorization
+- If stuck in local minimums, some noisy steps can lead the way out of them
+- Average of the training samples produces stable error gradients and convergence
+
+
+
+15:
+Transfer learning make use of the knowledge gained while solving one problem and applying it to a different but related problem.For example, knowledge gained while learning to recognize cars can be used to some extent to recognize trucks.
+We can give the new dataset to fine tune the pre-trained CNN. Consider that the new dataset is almost similar to the orginal dataset used for pre-training. Since the new dataset is similar, the same weights can be used for extracting the features from the new dataset.
