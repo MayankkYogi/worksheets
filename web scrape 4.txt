@@ -1,0 +1,28 @@
+1 c
+2 c
+3 b
+4 d
+5 b
+6 d
+7 a
+8 c
+9 b
+10 d
+11 b
+12 a
+13 c
+14 a
+15:
+find_all()
+You can use find_all to extract all the occurrences of a particular tag from the page.
+we can see find_all will give us all the items matching the search criteria we
+define. All the filters we can use with find_all() can be used with find() and other searching
+methods too like find_parents() or find_siblings().
+
+We have seen above, find_all() is used to scan the entire document to find all the contents
+but something, the requirement is to find only one result. If you know that the document
+contains only one <body> tag, it is waste of time to search the entire document. One way
+is to call find_all() with limit=1 every time or else we can use find() method to do the
+same:
+Syntax
+find(name, attrs, recursive, string, **kwargs)
