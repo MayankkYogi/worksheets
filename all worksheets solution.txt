@@ -1,0 +1,142 @@
+Deep Leanring:
+
+1 d
+2 c
+3 b
+4 a
+5 b
+6 a
+7 d
+8 a
+9 a,d
+10 c,d
+
+11:
+convex optimization there can be only one optimal solution, which is globally optimal or you might prove that there is no feasible solution to the problem.
+nonconvex optimization may have multiple locally optimal points and it can take a lot of time to identify whether the problem has no solution or if the solution is global. Hence, the efficiency in time of the convex optimization problem is much better.
+
+
+12:
+a point at which a function of two variables has partial derivatives equal to zero but at which the function has neither a maximum nor a minimum value.
+When we optimize neural networks or any high dimensional function, for most of the trajectory we optimize, the critical points(the points where the derivative is zero or close to zero) are saddle points. Saddle points, unlike local minima, are easily escapable.
+
+13:
+The distinction between Momentum method and Nesterov Accelerated Gradient updates was  both methods are distinct only when the learning rate is reasonably large. When the learning rate is relatively large, Nesterov Accelerated Gradients allows larger decay rate than Momentum method, while preventing oscillations. The theorem also shows that both Momentum method and Nesterov Accelerated Gradient become equivalent when learning rate is small.
+
+15:
+We define Internal Covariate Shift as the change in the distribution of network activations due to the change in network parameters during training.
+In neural networks, the output of the first layer feeds into the second layer, the output of the second layer feeds into the third, and so on. When the parameters of a layer change, so does the distribution of inputs to subsequent layers.
+
+These shifts in input distributions can be problematic for neural networks, especially deep neural networks that could have a large number of layers.
+
+Batch normalization is a method intended to mitigate internal covariate shift for neural networks.
+
+
+
+
+Machine Learning:
+1 b,c
+2 v
+3 a,b
+4 b
+5 b
+6 a
+7 c
+8 b
+9 b
+10 c
+
+
+
+
+
+
+Python:
+1 b
+2 b
+3 c
+4 d
+5 c
+6 c
+7 c
+8 a
+9 a,b
+10 a,b,d
+
+11:
+Interpreter translates just one statement of the program at a time into machine code.
+An interpreter takes very less time to analyze the source code. However, the overall time to execute the process is much slower.
+An interpreter does not generate an intermediary code. Hence, an interpreter is highly efficient in terms of its memory.
+
+
+Compiler scans the entire program and translates the whole of it into machine code at once
+A compiler takes a lot of time to analyze the source code. However, the overall time taken to execute the process is much faster.
+A compiler always generates an intermediary object code. It will need further linking. Hence more memory is needed.
+python is interpreted language.
+
+12:
+PYTHONPATH is an environment variable which you can set to add additional directories where python will look for modules and packages. For most installations, you should not set these variables since they are not needed for Python to run. Python knows where to find its standard library.
+
+
+13:
+Python String strip() function will remove leading and trailing whitespaces
+s = '  Hello  World   From Pankaj \t\n\r\tHi There  '
+>>> s.strip()
+'Hello  World   From Pankaj \t\n\r\tHi There'
+
+
+
+
+Statistics:
+1 b,d
+2 d
+3 c
+4 a,d
+5 c
+6 b
+7 a
+8 a
+9 b
+10 d
+11 b
+12 d
+13 c
+14 d
+15 b
+
+
+
+
+MYSQL:
+1. select AVG(orderNumber) as AverageShippedOrder from orders where status='shipped';
+
+2.select AVG(orderNumber) as AveragePlacedOrder from orders where status='placed';
+
+3. select productName from products orderby MSRP ASC LIMIT 1;
+
+4. select productName from products orderby quantityInStock DSC LIMIT 1;
+
+5. select productName from products where productCode IN(select max(productCode) from orderdetails);
+
+6. select customerName from customers where customerNumber IN (select customerNumber from payments where ORDERBY amount DESC LIMIT 1);
+
+7. select customerNumber,customerName from customers where city='Melbourne';
+
+8. select customerName from customers where customerName LIKE 'N%';
+
+9. select customerName from customers where phone LIKE '^7.*' AND city='Las Vegas';
+
+10. select customerName from customers having creditLimit <1000 and (city='LasVegas' or "Nantes" or "Stavern");
+
+11. select orderNumber from orderdetails where quantityordered<10;
+
+12.select orderNumber from orders where orderNumber IN (select orderNumber from customers where customerName LIKE 'N%');
+
+13. select customerName from customers where customerNumber IN ( select customerNumber from orders where status='Disputed');
+
+14. select customerName from customers where customerNumber IN(select customerNumber from payments where checkNumber LIKE 'H%' and paymentDate ='2004-10-19');
+
+15.select checkNumber from payments having amount>1000;
+
+
+     
