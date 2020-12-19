@@ -1,0 +1,30 @@
+1 b
+2 c
+3 a
+4 c
+5 a
+6 a
+7 b
+8 a
+9 b,c
+10 c,b
+11 a,b
+
+12:
+R-squared statistic or coefficient of determination is a scale invariant statistic that gives the proportion of variation in target variable explained by the linear regression model.
+The Adjusted R-squared takes into account the number of independent variables used for predicting the target variable. In doing so, we can determine whether adding new variables to the model actually increases the model fit.
+
+13:
+a cost function is a measure of how wrong the model is in terms of its ability to estimate the relationship between x and y or in simple words it helps the learner to correct / change behaviour to minimize mistakes.
+
+14:
+The sum of squares total, denoted SST, is the squared differences between the observed dependent variable and its mean
+The second term is the sum of squares due to regression, or SSR. It is the sum of the differences between the predicted value and the mean of the dependent variable.
+The last term is the sum of squares error, or SSE. The error is the difference between the observed value and the predicted value.
+
+15:
+there are multiple metrics:
+mean squared error
+mean absolute error
+root mean square error
+r2 score
